@@ -20,7 +20,7 @@ This project focuses on analyzing Bitcoin historical data, leveraging technical 
 
 ## Dataset
 
-The dataset used for this analysis is the [Bitcoin Historical Data](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data) available on Kaggle. It includes minute-level data from 2012 to 2021.
+The dataset used for this analysis is the [Bitcoin Historical Data](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data) available on Kaggle. It includes minute-level data from 2012 to 2021. (Resampled minute data to hourly data and executed by code)
 
 ## Google Colab Setup
 
