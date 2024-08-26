@@ -20,7 +20,7 @@ This project focuses on analyzing Bitcoin historical data, leveraging technical 
 
 ## Dataset
 
-The dataset used for this analysis is the [Bitcoin Historical Data](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data) available on Kaggle. It includes minute-level data from 2012 to 2021. (Resampled minute data to hourly data and executed by code)
+The dataset used for this analysis is the [Bitcoin Historical Data](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data) available on Kaggle. It includes minute-level data from 2012 to 2021. However, in this analysis, we resample the minute-level data to an hourly timeframe to reduce noise and focus on more meaningful price movements.
 
 ## Google Colab Setup
 
@@ -107,6 +107,8 @@ After setting up the environment in Google Colab or your local machine, you can 
 ## Results
 
 The script generates a detailed analysis of various candlestick patterns, which is stored in a DataFrame and can be saved as a CSV file (`kaggle_hourly_pattern_analysis.csv`). The analysis includes statistics such as average close change, trend alignment, and volume conditions for each pattern.
+
+You can also view the analysis on Kaggle in this [notebook](https://www.kaggle.com/code/tzelal/btc-hourly-candlestick-pattern-eda), where the code is executed and the results are visualized.
 
 ## Contributing
 
